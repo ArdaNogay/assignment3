@@ -1,0 +1,8 @@
+package src.video41_abstractDemo;
+
+public class SqlServerDatabaseManager extends BaseDatabaseManager{
+    @Override
+    public void getData() {
+        System.out.println("Veri getirildi : SQL Server");
+    }
+}
